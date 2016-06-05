@@ -102,6 +102,8 @@ open "$vep"
 				</array>
 				<key>OutputUUID</key>
 				<string>02E6E581-161F-4B4F-A460-23E6EE64694B</string>
+				<key>ShowWhenRun</key>
+				<true/>
 				<key>UUID</key>
 				<string>0888A199-D033-4A7B-9C99-3A294CC6DFD3</string>
 				<key>UnlocalizedApplications</key>
@@ -176,12 +178,10 @@ open "$vep"
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>452.000000:371.000000</string>
+				<string>452.000000:561.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
