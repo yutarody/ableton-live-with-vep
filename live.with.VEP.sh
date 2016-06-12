@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 liveAlive=`ps -ef | grep "MacOS/Live" | grep -v grep | wc -l`
 viennaAlive=`ps -ef | grep "Vienna Ensemble Pro" | grep -v grep | wc -l`
-curpj=`cat "$HOME/Library/Preferences/Ableton/Live 9.6.1/Log.txt" | grep -i project | grep -o '/V.*Project' | sed -e s/\%20/\ /`
+#sudo fs_usage Live
+curpj=`cat "$HOME/Library/Preferences/Ableton/Live 9.6.1/Log.txt" | grep -i project | grep -o '/V.*Project' | sed -e s/\%20/\ / | head -n 1`
 #als=`find "$curpj" -depth 1 -name "*.als"`
 vep=`find "$curpj" -name "*.mframe64"`
 
